@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muistipeli</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <button id="start-button" onclick="startGame()">Start</button>
+    <button id="stop-button" class="hidden" onclick="stopGame()">Stop</button>
+
+    <div>
+        <div id="color-buttons">
+            <button id="button1" onclick=" (1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+            <button id="button2" onclick=" (2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+            <button id="button3" onclick=" (3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+            <button id="button4" onclick=" (4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
